@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Художник Томас Кинкейд. Галерея</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="Style_galery2.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="apple-touch-icon" sizes="180x180" href="../ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../ico/favicon-16x16.png">    
+</head>
+<body background="../image/Озерца безмятежности.jfif" body onload="getComments();">
+<input type="checkbox" id="openmenu" class="hamburger-checkbox">
+<div class="hamburger-icon">
+<label for="openmenu" id="hamburger-label">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</label>    
+</div>
+<div class="menu-pane">
+<ul class="menu-links">
+<li><a href="../galery.html" >Галерея</a><br></li>
+<li><a href="../home.html#Биография и творчество">Биография и творчество</a></li><hr>
+<li><a href="../About.html">Контакты</a></li>  
+</ul>
+</div>
+<div id="header">
+<div id="logo" >
+<h1>Художник Томас Кинкейд</h1>
+</div>
+</div>
+<div id="center">
+<h1>Дом у Сосновой бухты</h1>
+<img class="center-pic" src="..\image\Дом у Сосновой бухты.jfif"  >
+<a href="..\image\Дом у Сосновой бухты.jfif" download target="_blank">
+<div class="box">Скачать</div>
+</a>
+<h2>Навигация по альбому: </h2>
+<a href=".\Дом, у которого есть сердце.html" >
+<div class="box">Вперед</div>
+</a> 
+<a href=".\Дом сборщика налогов.html" >
+<div class="box">Назад</div>
+</a> <div class="container">
+<div class="col-lg-12">
+<h2 class="text-center">
+Комментарии:
+</h2>
+</div>
+<div class="col-lg-6">
+<div id="comment-field"></div>
+</div>
+<div class="col-lg-6">
+<form>
+<div class="form-group">
+<label for="comment-name">Имя:</label>
+<input type="email" class="form-control" id="comment-name" placeholder="Введите своё имя">
+</div>
+<div class="form-group">
+<label for="comment-body">Комментарий:</label>
+<textarea type="password" class="form-control" id="comment-body" placeholder="Введите комментарий"></textarea>
+</div>
+<div class="form-group form-check text-right">
+<button type="submit" id="comment-add" class="btn btn-danger">Отправить</button>
+</div>
+</form></div>
+</div></div>
+<script src="js.js"></script>
+<!-- Конец основного блока -->
+<div>
+<div id="footer">
+<p align="center"><a href="../About.html">Контакты </a>&nbsp;&nbsp;&nbsp; <a href="../Policy.html"> Политика конфиденциальности</a></p>
+</div>       
+</div>
+</body>
+</html>
